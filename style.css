@@ -1,0 +1,44 @@
+body {
+  color: blue;
+  background-image: url('soulardbackground.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: arial;
+
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+ul li {
+  float: left;
+  width: 200px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  opacity: .8;
+  line-height: 40px;
+  text-align: center;
+  font-size: 30px;
+  font-family: serif;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+ul li a:hover {
+  color: green;
+  background-color: white;
+}
+
+ul li ul li {
+  display: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+ ul li:hover ul li {
+   display: block;
+ }
