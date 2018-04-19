@@ -42,3 +42,12 @@ ul li ul li {
  ul li:hover ul li {
    display: block;
  }
+
+ .box {
+   background-color: white;
+   float: right;
+   padding: 5px;
+ }
+ .box a:hover {
+   background-color: hotpink;
+ }
